@@ -17,21 +17,6 @@ Repositori ini dibuat untuk mendokumentasikan seluruh rangkaian tugas praktikum 
 
 ---
 
-## 📂 Struktur Repositori (`Lab6Web`)
-Struktur folder di dalam repository ini diorganisasikan berdasarkan modul praktikum:
-
-```text
-Lab6Web/
-├── lab1_html_ dasar/       # Dokumen dasar HTML
-├── lab2_form/              # Elemen form dasar HTML
-├── lab3_css/               # Styling dan layout CSS
-├── lab4_layout/            # Flexbox & Grid layout
-├── lab5_javascript/        # Logika dasar JavaScript
-└── lab6_dom_event/         # Latihan To-do List & Mini Project Form Pendaftaran
-    ├── index.html          # Struktur halaman utama mini project
-    ├── style.css           # Desain visual dan kelas dinamis (error/sukses)
-    └── script.js           # Logika DOM, event handling, dan validasi
-
 Cara Menjalankan Proyek
 1.⁠ ⁠Pastikan aplikasi Visual Studio Code terpasang di perangkat Anda.
 2.⁠ ⁠Pasang ekstensi Live Server di dalam VS Code.
@@ -54,12 +39,11 @@ Langkah Kerja & Ringkasan Pengerjaan
 
 <img width="685" height="311" alt="Tangkapan Layar 2026-10-31 pukul 22 33 33" src="https://github.com/user-attachments/assets/71f0e455-c41b-4427-8cea-bb9827693f46" />
 
-<img width="1458" height="515" alt="Tangkapan Layar 2026-10-31 pukul 22 58 59" src="https://github.com/user-attachments/assets/7441fd35-3634-41b9-8ffb-1405121163c7" />
 <img width="675" height="295" alt="Tangkapan Layar 2026-10-31 pukul 22 42 06" src="https://github.com/user-attachments/assets/b53174ae-605a-4d77-96b9-941471212065" />
 
 2. **Lab 3:** Pengenalan CSS, Pewarnaan, dan *Styling* Dasar.
 
-![Uploading Tangkapan Layar 2026-10-31 pukul 22.58.59.png…]()
+<img width="1458" height="515" alt="Tangkapan Layar 2026-10-31 pukul 22 58 59" src="https://github.com/user-attachments/assets/a65cc495-f2ea-4dea-95e4-836b261da055" />
 
 
 3. **Lab 4:** Tata Letak Lanjutan Menggunakan CSS Flexbox dan CSS Grid.
@@ -72,6 +56,10 @@ Langkah Kerja & Ringkasan Pengerjaan
 
 
 5. **Lab 6 & Mini Project:** Manipulasi *Document Object Model* (DOM), *Event Handling*, Validasi Form, dan Aplikasi Interaktif (*To-do List* serta Form Pendaftaran Workshop).
-<img width="1429" height="820" alt="Tangkapan Layar 2026-10-31 pukul 23 58 37" src="https://github.com/user-attachments/assets/7e3afd6c-43c4-4ce3-a5ee-a925c78e9fb6" />
+
 <img width="909" height="510" alt="Tangkapan Layar 2026-10-31 pukul 23 53 11" src="https://github.com/user-attachments/assets/15c56329-3cba-448e-95b6-d31ee43a4ca1" />
+
+<img width="1429" height="820" alt="Tangkapan Layar 2026-10-31 pukul 23 58 37" 
+src="https://github.com/user-attachments/assets/7e3afd6c-43c4-4ce3-a5ee-a925c78e9fb6" />
+
 <img width="1430" height="825" alt="Tangkapan Layar 2026-10-31 pukul 23 59 01" src="https://github.com/user-attachments/assets/f182fbeb-2a88-41a6-b9da-b47079a5df6d" />
