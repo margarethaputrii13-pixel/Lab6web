@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - Pendaftaran Workshop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h2>Pendaftaran Workshop</h2>
+        
+        <form id="formPendaftaran">
+            <!-- Input Nama & Penghitung Karakter -->
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" placeholder="Masukkan nama Anda">
+                <small id="infoKarakter">Jumlah karakter: 0</small>
+            </div>
+
+            <!-- Input Email -->
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="nama@email.com">
+            </div>
+
+            <!-- Pilihan Sesi (Dropdown) -->
+            <div class="form-group">
+                <label for="sesi">Pilih Sesi Workshop:</label>
+                <select id="sesi">
+                    <option value="">-- Pilih Sesi --</option>
+                    <option value="Pagi">Sesi Pagi (09:00 - 12:00)</option>
+                    <option value="Siang">Sesi Siang (13:00 - 16:00)</option>
+                </select>
+            </div>
+
+            <!-- Tombol Aksi -->
+            <div class="button-group">
+                <button type="submit" id="btnDaftar">Daftar</button>
+                <button type="reset" id="btnReset">Reset</button>
+            </div>
+        </form>
+
+        <!-- Area Pesan (Sukses / Error) -->
+        <p id="pesanStatus" aria-live="polite"></p>
+    </main>
+</body>
+</html>
